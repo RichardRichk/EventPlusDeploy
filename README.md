@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Event+
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+O projeto "Mundo Comum" é um sistema web desenvolvido para a escola DevSchool, especializada em desenvolvimento de sistemas. , o sistema, tem como objetivo facilitar a gestão de eventos na escola, proporcionando uma plataforma para administradores e usuários comuns interagirem de forma eficiente.
 
-In the project directory, you can run:
+## Funcionalidades do Sistema
 
-### `npm start`
+### Perfis de Usuário
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Administrador:** Acesso à área administrativa da escola.
+2. **Usuário Comum:** Pode ser espectador ou palestrante.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Funcionalidades Principais
 
-### `npm test`
+- O administrador pode cadastrar qualquer tipo de usuário.
+- O administrador pode cadastrar diferentes tipos de eventos.
+- Usuários autenticados podem visualizar todos os eventos cadastrados.
+- Usuários comuns podem visualizar os eventos dos quais participarão.
+- Usuários comuns podem se inscrever para assistir a um evento ou cancelar sua inscrição.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estrutura do Projeto
 
-### `npm run build`
+### Sprints do Desenvolvimento
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### SPRINT 1 – Banco de Dados
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Modelagem do banco de dados com base nas planilhas fornecidas pela DevSchool.
+- Criação das tabelas necessárias para armazenar informações de eventos e usuários.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### SPRINT 2 – Back-End (API)
 
-### `npm run eject`
+- Desenvolvimento de uma API utilizando padrões modernos.
+- Implementação de autenticação com JWT (JSON Web Token).
+- Autorização de endpoints baseada nas funcionalidades do sistema.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### SPRINT 3 – Front-End (Framework)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Desenvolvimento da interface do usuário utilizando ReactJS.
+- Integração com a API para interação dinâmica.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### SPRINT 4 – Deploy
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Publicação do sistema em um servidor em nuvem, permitindo acesso remoto.
 
-## Learn More
+#### SPRINT 5 – Inteligência Artificial
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Implementação de uma funcionalidade de feedback dos usuários sobre os eventos.
+- Utilização do **Content Moderator** da Microsoft Azure para moderação de comentários, garantindo que apenas feedbacks apropriados sejam disponibilizados.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tecnologias Utilizadas
 
-### Code Splitting
+- **Front-End:** ReactJS
+- **Back-End:** API com C# (.NET)
+- **Banco de Dados:** SQL Server
+- **Autenticação:** JWT (JSON Web Token)
+- **Inteligência Artificial:** Microsoft Azure Content Moderator
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Como Executar o Projeto
 
-### Analyzing the Bundle Size
+### Pré-requisitos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- .NET Core SDK
+- Node.js
+- SQL Server
